@@ -1,0 +1,19 @@
+#info-category{
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#intro-card{
+    font-weight: bold;
+}
+
+.card-action{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
