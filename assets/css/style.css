@@ -12,7 +12,8 @@
     font-weight: bold;
 }
 
-.card-action{
+#profile-card-action{
+    text-decoration: none;
     width: 50%;
     display: flex;
     justify-content: space-around;
@@ -24,5 +25,6 @@
 
 .card-action a{
     font-style: italic;
+    color: brown; /*materialize not allowing this to go through*/
     text-decoration: underline;
 }
