@@ -17,3 +17,12 @@
     display: flex;
     justify-content: space-around;
 }
+
+.card .card-title{
+    font-weight: bold;
+}
+
+.card-action a{
+    font-style: italic;
+    text-decoration: underline;
+}
