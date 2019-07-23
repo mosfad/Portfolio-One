@@ -28,3 +28,7 @@
     color: brown; /*materialize not allowing this to go through*/
     text-decoration: underline;
 }
+
+#friendfinder-img{
+    border: 1px solid gray;
+}
