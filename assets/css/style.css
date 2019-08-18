@@ -1,3 +1,7 @@
+/*body{
+    background-image: url('../images/port_unsplash1.jpg');
+}*/
+
 #info-category{
     font-weight: bold;
 }
@@ -31,4 +35,20 @@
 
 #friendfinder-img{
     border: 1px solid gray;
+}
+
+ul.skills{
+    list-style-type: disc;
+}
+
+.skills li{
+    display: inline;
+}
+
+.collapsible-header:hover{
+    background-color: #bfbfbf;
+}
+
+.collapsible-header:focus{
+    background-color: #bfbfbf;
 }
