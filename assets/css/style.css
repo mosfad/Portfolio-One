@@ -2,53 +2,89 @@
     background-image: url('../images/port_unsplash1.jpg');
 }*/
 
-#info-category{
-    font-weight: bold;
+#info-category {
+  font-weight: bold;
 }
 
-.container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-#intro-card{
-    font-weight: bold;
+#intro-card {
+  font-weight: bold;
 }
 
-#profile-card-action{
-    text-decoration: none;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
+#profile-card-action {
+  text-decoration: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
 }
 
-.card .card-title{
-    font-weight: bold;
+.card .card-title {
+  font-weight: bold;
 }
 
-.card-action a{
-    font-style: italic;
-    color: brown; /*materialize not allowing this to go through*/
-    text-decoration: underline;
+.card-action a {
+  font-style: italic;
+  color: brown; /*materialize not allowing this to go through*/
+  text-decoration: underline;
 }
 
-#friendfinder-img{
-    border: 1px solid gray;
+#friendfinder-img {
+  border: 1px solid gray;
 }
 
-ul.skills{
-    list-style-type: disc;
+ul.skills {
+  list-style-type: disc;
 }
 
-.skills li{
-    display: inline;
+.skills li {
+  display: inline;
 }
 
-.collapsible-header:hover{
-    background-color: #bfbfbf;
+.collapsible-header:hover {
+  background-color: #bfbfbf;
 }
 
-.collapsible-header:focus{
-    background-color: #bfbfbf;
+.collapsible-header:focus {
+  background-color: #bfbfbf;
+}
+
+.section-headers {
+  background-color: #cacae4;
+  height: 100%;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+div.center {
+  margin-bottom: 0;
+  /*padding-bottom: 0;*/
+}
+
+div.center .card {
+  margin-bottom: 0;
+  /*padding-bottom: 0;*/
+}
+
+div.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+i.icon-blue {
+  color: #1a729d;
+}
+
+a.modal-trigger {
+  background-color: #c65047;
+}
+
+a.modal-trigger:hover {
+  background-color: #f39992;
 }
