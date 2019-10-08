@@ -88,3 +88,12 @@ a.modal-trigger {
 a.modal-trigger:hover {
   background-color: #f39992;
 }
+
+#links-profile {
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+
+i.icon-teal {
+  color: #9d121e;
+}
