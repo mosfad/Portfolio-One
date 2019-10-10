@@ -1,6 +1,11 @@
 /*body{
     background-image: url('../images/port_unsplash1.jpg');
 }*/
+/*body,
+html {
+  padding: 0;
+  margin: 0;
+}*/
 
 #info-category {
   font-weight: bold;
@@ -58,9 +63,9 @@ ul.skills {
   height: 100%;
 }
 
-nav {
+/*nav {
   margin-top: 15px;
-}
+}*/
 
 div.center {
   margin-bottom: 0;
@@ -96,4 +101,12 @@ a.modal-trigger:hover {
 
 i.icon-teal {
   color: #9d121e;
+}
+
+.portfolio-title {
+  color: black;
+}
+
+div.about {
+  /* */
 }
