@@ -21,12 +21,12 @@ html {
   font-weight: bold;
 }
 
-#profile-card-action {
+/*#profile-card-action {
   text-decoration: none;
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: space-around;
-}
+}*/
 
 .card .card-title {
   font-weight: bold;
@@ -109,4 +109,22 @@ i.icon-teal {
 
 div.about {
   /* */
+}
+
+#my-info li p {
+  display: inline-block;
+}
+
+#my-info li span {
+  margin-left: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#links-profile {
+  display: block;
+}
+
+.links-icons li {
+  margin-bottom: 10px;
 }
