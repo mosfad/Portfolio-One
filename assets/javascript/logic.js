@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".collapsible").collapsible();
-
+  $(".sidenav").sidenav();
   $(".modal").modal();
 
   //Use jQuery to get receive contact form in email, using enformed.

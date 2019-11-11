@@ -128,3 +128,15 @@ div.about {
 .links-icons li {
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 760px) {
+  /* For mobile phones: 
+  [class*="col s12 m3"] {
+    width: 100%;
+  }
+
+  [class*="col s12 m6"] {
+    width: 100%;
+  }
+  */
+}
