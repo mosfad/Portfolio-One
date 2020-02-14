@@ -129,6 +129,21 @@ div.about {
   margin-bottom: 10px;
 }
 
+.card .projects {
+  max-height: 850px;
+}
+
+/* ul:not(.browser-default) > li {
+  list-style-type: disc;
+} */
+
+ul.decor > li {
+  list-style-type: disc;
+}
+
+span.card-title.black-text.tech {
+  font-size: 20px;
+}
 @media only screen and (max-width: 760px) {
   /* For mobile phones: 
   [class*="col s12 m3"] {
