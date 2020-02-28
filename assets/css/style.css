@@ -112,13 +112,12 @@ div.about {
 }
 
 #my-info li p {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 #my-info li span {
   margin-left: 50px;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.25rem;
 }
 
 #links-profile {
@@ -143,6 +142,40 @@ ul.decor > li {
 
 span.card-title.black-text.tech {
   font-size: 20px;
+}
+
+/* ================================NEW STYLE @ 2/27/2020===========================================================*/
+
+h4.category-header {
+  display: inline-block;
+  padding-bottom: 7px;
+  border-bottom: 3px solid gray;
+}
+
+i.material-icons.contact {
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  /* left: 5px; */
+}
+
+.fas.fa-file-alt {
+  color: #e9271e;
+  font-size: 1.75rem;
+}
+
+.fab.fa-github-square {
+  color: #607d8b;
+  font-size: 1.75rem;
+}
+
+.fab.fa-linkedin {
+  color: royalblue;
+  font-size: 1.75rem;
+}
+
+.waves-effect.waves-light.url-icons {
+  margin-right: 20px;
 }
 @media only screen and (max-width: 760px) {
   /* For mobile phones: 
