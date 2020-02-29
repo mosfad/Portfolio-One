@@ -1,6 +1,6 @@
-/*body{
-    background-image: url('../images/port_unsplash1.jpg');
-}*/
+body {
+  background-image: url("../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg");
+}
 /*body,
 html {
   padding: 0;
@@ -11,6 +11,7 @@ html {
   font-weight: bold;
 }
 
+/* center footer */
 .container {
   display: flex;
   flex-flow: row wrap;
@@ -165,7 +166,7 @@ i.material-icons.contact {
 }
 
 .fab.fa-github-square {
-  color: #607d8b;
+  color: black;
   font-size: 1.75rem;
 }
 
@@ -177,6 +178,26 @@ i.material-icons.contact {
 .waves-effect.waves-light.url-icons {
   margin-right: 20px;
 }
+
+.row.skill {
+  margin-bottom: 0px;
+}
+.col.s6.m3.icon-skill {
+  display: flex;
+  justify-content: center;
+}
+
+.col.s6.m3.icon-skill i {
+  font-size: 6rem;
+}
+
+.btn-small.waves-teal {
+  border-radius: 12px;
+}
+
+/* div.row.container.home-container {
+  display: flex;
+} */
 @media only screen and (max-width: 760px) {
   /* For mobile phones: 
   [class*="col s12 m3"] {
