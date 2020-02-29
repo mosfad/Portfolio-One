@@ -191,7 +191,27 @@ i.material-icons.contact {
   font-size: 6rem;
 }
 
-.btn-small.waves-teal {
+a.btn-small.client-tech {
+  background-color: teal;
+  margin-left: 5px;
+  border-radius: 12px;
+}
+
+a.btn-small.server-tech {
+  background-color: #9d121e;
+  margin-left: 5px;
+  border-radius: 12px;
+}
+
+a.btn-small.database-tech {
+  background-color: darkslateblue;
+  margin-left: 5px;
+  border-radius: 12px;
+}
+
+a.btn-small.others-tech {
+  background-color: #514e4e;
+  margin-left: 5px;
   border-radius: 12px;
 }
 
