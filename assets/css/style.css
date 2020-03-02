@@ -1,12 +1,23 @@
-body {
+/* body {
   background-image: url("../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg");
-}
+} */
 /*body,
 html {
   padding: 0;
   margin: 0;
 }*/
+.parallax-container {
+  height: 600px;
+}
 
+.parallax-container.skills,
+.parallax-container.contact {
+  height: 900px;
+}
+
+.parallax-container.projects {
+  height: 1100px;
+}
 #info-category {
   font-weight: bold;
 }
@@ -182,39 +193,71 @@ i.material-icons.contact {
 .row.skill {
   margin-bottom: 0px;
 }
-.col.s6.m3.icon-skill {
+.col.s6.m6.icon-skill {
   display: flex;
   justify-content: center;
 }
 
-.col.s6.m3.icon-skill i {
-  font-size: 6rem;
+.col.s6.m6.icon-skill i {
+  font-size: 5rem;
 }
 
+.collection-skills li {
+  display: inline-block;
+  margin-bottom: 15px;
+}
 a.btn-small.client-tech {
   background-color: teal;
   margin-left: 5px;
   border-radius: 12px;
+  cursor: default;
 }
 
 a.btn-small.server-tech {
   background-color: #9d121e;
   margin-left: 5px;
   border-radius: 12px;
+  cursor: default;
 }
 
 a.btn-small.database-tech {
   background-color: darkslateblue;
   margin-left: 5px;
   border-radius: 12px;
+  cursor: default;
 }
 
 a.btn-small.others-tech {
   background-color: #514e4e;
   margin-left: 5px;
   border-radius: 12px;
+  cursor: default;
 }
 
+.card.add-border {
+  border-radius: 12px;
+}
+
+div.card-content p {
+  /* padding: 10px 20px; */
+  font-size: 1.1rem;
+}
+
+.parallax-container.about {
+  background-color: #f1e7e2;
+}
+
+.row.center.about,
+.row.center.skills,
+.row.center.projects,
+.row.center.contact {
+  margin-bottom: 50px;
+}
+
+/* div.card-content h5,
+div.resume-button {
+  padding: 0px 20px;
+} */
 /* div.row.container.home-container {
   display: flex;
 } */
