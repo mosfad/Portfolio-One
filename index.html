@@ -1,758 +1,688 @@
-<!--<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-</head>
-<body>
-    
-</body>
-</html>-->
-<!--About Me Draft-->
-<!--
-  My main interest in web development is how to make sense of the abundance of raw and unstructured data around us. I enjoy using my recently acquired skills as a full stack developer to process and present data in a manner that completes a user story. Although my professional experience as a web development is entry level, my electrical engineering background has fostered my passion for algorithms and problem solving. My goal is to create apps that incorporate artifical intelligence to provide customer and business solutions. Please view my projects to see how much I have learnt!
-  I have enjoyed collaborating with fellow developers to build apps, even as I navigated the challenges and obstacles of teamwork...
-
--->
-
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!-- Import icon library(Font Awesome) -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="assets/css/materialize-social.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-      <!-- Font Awesome Kit-->
-      <script src="https://kit.fontawesome.com/4e2e92500c.js"></script>
-      
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Import icon library(Font Awesome) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="assets/css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="assets/css/materialize-social.css"
+      media="screen,projection"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/4e2e92500c.js"></script>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <!-- Not sure if I need the meta tags below-->
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    </head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Not sure if I need the meta tags below-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
 
-    <body>
-
-  <div class="navbar-fixed">
+  <body>
+    <div class="navbar-fixed">
       <nav>
-        <div class="nav-wrapper blue darken-3">
-          <a href="#!" class="brand-logo"><span>Dupe Fadina</span</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="nav-wrapper grey darken-3">
+          <a href="#!" class="brand-logo"><span>Dupe Fadina</span></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
           <ul class="right hide-on-med-and-down">
-            <li><a href="#About"><strong>About</strong></a></li>
-            <li><a href="#Skills"><strong>Skills</strong></a></li>
-            <li><a href="#Projects"><strong>Projects</strong></a></li>
-            <li><a href="#Contact"><strong>Contact</strong></a></li>
+            <li>
+              <a href="#my-home"><strong>Home</strong></a>
+            </li>
+            <li>
+              <a href="#my-about"><strong>About</strong></a>
+            </li>
+            <li>
+              <a href="#my-skills"><strong>Skills</strong></a>
+            </li>
+            <li>
+              <a href="#my-projects"><strong>Projects</strong></a>
+            </li>
+            <li>
+              <a href="#my-contact"><strong>Contact</strong></a>
+            </li>
           </ul>
         </div>
       </nav>
     </div>
 
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="#About">About</a></li>
-      <li><a href="#Skills">Skills</a></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li><a href="#Contact">Contact</a></li>
+      <li><a href="#my-home">Home</a></li>
+      <li><a href="#my-about">About</a></li>
+      <li><a href="#my-skills">Skills</a></li>
+      <li><a href="#my-projects">Projects</a></li>
+      <li><a href="#my-contact">Contact</a></li>
     </ul>
-      <div class="section">
-          <a class="portfolio-title" name="About"></a>
+
+    <!-- Home section -->
+    <div class="parallax-container" id="my-home">
+      <br />
+      <br />
+      <div class="parallax">
+        <img src="./assets/images/jj-ying-7JX0-bfiuxQ-unsplash.jpg" />
       </div>
-      
-      <div class="row center about" >
-        <div class="col s10 offset-s1">
-          <div class="card">
-            <div class="card-content blue-grey lighten-2 black-text">
-              <span class="card-title">ABOUT</span>
-           </div>
+      <div class="section">
+        <a class="portfolio-title" name="Home"></a>
+      </div>
+
+      <div>
+        <div class="row">
+          <div class="row container home-container">
+            <div class="col s12 m8">
+              <div class="">
+                <div class="black-text">
+                  <h4>
+                    Dupe Fadina<span style="margin-left: 50px;"
+                      ><a
+                        class="waves-effect waves-light btn"
+                        href="#my-contact"
+                        style="border-radius: 7px;"
+                        ><i class="material-icons left">contact_mail</i>contact
+                        me</a
+                      ></span
+                    >
+                  </h4>
+                  <h5>Web Developer</h5>
+                  <ul id="my-info">
+                    <li>
+                      <i class="material-icons contact">location_on</i
+                      ><span>Rancho Cucamonga, CA, US.</span>
+                    </li>
+
+                    <li>
+                      <i class="material-icons contact">email</i
+                      ><span>maafadina@gmail.com</span>
+                    </li>
+
+                    <li>
+                      <i class="material-icons contact">phone</i
+                      ><span>(832)790-1043</span>
+                    </li>
+                  </ul>
+                  <div class="url-pages">
+                    <span title="GitHub">
+                      <a
+                        class="waves-effect waves-light url-icons"
+                        href="https://github.com/mosfad"
+                        target="_blank"
+                      >
+                        <i class="fab fa-github-square"></i> </a
+                    ></span>
+                    <span title="Resume">
+                      <a
+                        class="waves-effect waves-light url-icons"
+                        href="https://docs.google.com/document/d/1GuugSK-7pXFA7JRtt8YZwvEY2B9lvNNLXjXZ-DOBKrw/edit?usp=sharing"
+                        target="_blank"
+                      >
+                        <i class="fas fa-file-alt"></i> </a
+                    ></span>
+                    <span title="LinkedIn">
+                      <a
+                        class="waves-effect waves-light url-icons"
+                        href="http://www.linkedin.com/in/dupe-fadina"
+                        target="_blank"
+                      >
+                        <i class="fab fa-linkedin"></i> </a
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s10 offset-s1 m4">
+              <img
+                src="assets/images/dupe_portfolio.JPG"
+                alt=""
+                class="circle responsive-img"
+              />
+              <!-- notice the "circle" class -->
+            </div>
           </div>
         </div>
       </div>
-        <div class="row">
-            <div class="col s10 m10 offset-s1 offset-m1">
-              <div class="card white">
-                <div class="card-content black-text">
-                  <span class="card-title center-align" id="intro-card"> Hello. I am Dupe, a Full-Stack Developer. Thanks for visiting! </span>
-                  <div class="row">
-                    <div class="col s12 m3">
-                      <img src="assets/images/dupe_portfolio.JPG" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                    </div>
-                    <!--
-                    <div class="col s9">
-                      <p>Hello. I am Dupe, a Front-End Developer.</p>
-                      <div class="container">
-                        <div class="flex-item" id="info-category">
-                          <p><i class="material-icons">location_on</i></p>
-                          <p><i class="material-icons">email</i></p>
-                          <p><i class="material-icons">contact_phone</i></p>
-                        </div>
-                        <div class="flex-item">
-                          <p>Southern California, United States</p>
-                          <p>maafadina@gmail.com</p>
-                          <p>(832)790-1043</p>
-                          
-    
-                        </div>
-        
-                      </div>
-                      
-                    </div> -->
-                    <div class="col s12 m6">
-                        <div class="card white">
-                          <div class="card-content black-text">
-                              <ul id="my-info">
-                                  <li><p><i class="material-icons">location_on</i></p><span>Rancho Cucamonga, CA, US.</span></li>
-                                  <li class="divider"></li>
-                                  <li><p><i class="material-icons">email</i></p><span>maafadina@gmail.com</span></li>
-                                  <li class="divider"></li>
-                                  <li><p><i class="material-icons">contact_phone</i></p><span>(832)790-1043</span></li>
-                                  <li class="divider"></li>
-                              </ul>
-                              <!-- Modal Trigger -->
-                              <a class="waves-effect waves-light btn modal-trigger" href="#modal1">More about me</a>
-                              <!-- Modal Structure -->
-                              <div id="modal1" class="modal">
-                                <div class="modal-content">
-                                  <h4>More about me.</h4>
-                                  <p>My main interest in web development is how to make sense of the abundance of raw and unstructured data around us. 
-                                    I enjoy using my recently acquired skills as a full stack developer to process and present data in a manner that satisfies a user story. 
-                                    Although my professional experience as a web development is entry level, my electrical engineering background has fostered my passion for algorithms and problem solving. 
-                                    I have enjoyed collaborating with fellow developers to build apps, even as I navigated the challenges and obstacles of teamwork 
-                                    My goal is to create apps that incorporate artifical intelligence to provide customer and business solutions. Please view my projects to see how much I have learnt!</p>
-                                </div>
-                                <div class="modal-footer">
-                                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Continue viewing portfolio</a>
-                                </div>
-                              </div>
-                            <!--<p>
-                              <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                              <i class="fab fa-bootstrap"></i>
-                            </a>
-                            <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                                <i class="fab fa-html5 blue"></i>
-                            </a>
-                            <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                                <i class="fab fa-css3-alt"></i>
-                            </a>
-                            <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                                <i class="fab fa-js-square"></i>
-                            </a>
-                            <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                                <i class="fab fa-node"></i>
-                            </a>
-                            </p>-->
-                
-                          </div>
-                        </div>
-                      </div>
-                    
-                      <div class="col s12 m3">
-                          <div class="card white">
-                              <div class="card-content" id="profile-card-action">
-                                  <div id="links-profile">My URL Pages</div>
-                                  <ul class="links-icons">
-                                  <li><span title="GitHub">
-                                      <a class="waves-effect waves-light btn-floating grey darken-3" href="https://github.com/mosfad" target="_blank">
-                                        <i class="fab fa-github-square"></i>
-                                      </a></span></li>
-                                  <li><span title="Resume">   
-                                      <a  class="waves-effect waves-light btn-floating red darken-3" href="https://docs.google.com/document/d/1GuugSK-7pXFA7JRtt8YZwvEY2B9lvNNLXjXZ-DOBKrw/edit?usp=sharing" target="_blank">
-                                        <i class="fas fa-file-alt"></i>
-                                      </a></span> </li>         
-                                  <li><span title="LinkedIn">
-                                      <a class="waves-effect waves-light btn-floating blue darken-3 " href="www.linkedin.com/in/dupe-fadina" target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                      </a></span></li>
-                                  </ul>
-                                  <!--
-                                  <span title="Stack Overflow">
-                                    <a  class="waves-effect waves-light btn-floating brown" href="https://stackoverflow.com/users/11344083/modupe-fadina?tab=profile" target="_blank">
-                                      <i class="fab fa-stack-overflow"></i>
-                                    </a></span> -->
-                                  
-                                </div>       
-                          </div>
-                        </div>
+    </div>
 
+    <!-- About section-->
 
-                  </div>
-              
-                  
-                </div>
-                <!--
-                <div class="card-action" id="profile-card-action">
-                  <span id="links-profile">My URL Pages</span>
-                  <span title="GitHub">
-                    <a class="waves-effect waves-light btn-floating grey darken-3" href="https://github.com/mosfad" target="_blank">
-                      <i class="fab fa-github-square"></i>
-                    </a></span>
-                  <span title="Resume">   
-                    <a  class="waves-effect waves-light btn-floating red darken-3" href="https://docs.google.com/document/d/1Yx2HV0ZmNdVxME_lVqUqI5C9WT0YKL7HEsVYwt-DHBc/edit?usp=sharing" target="_blank">
-                      <i class="fas fa-file-alt"></i>
-                    </a></span>          
-                  <span title="LinkedIn">
-                    <a class="waves-effect waves-light btn-floating blue darken-3 " href="www.linkedin.com/in/dupe-fadina" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a></span>
-                  
-                  <--
-                  <span title="Stack Overflow">
-                    <a  class="waves-effect waves-light btn-floating brown" href="https://stackoverflow.com/users/11344083/modupe-fadina?tab=profile" target="_blank">
-                      <i class="fab fa-stack-overflow"></i>
-                    </a></span> ->
-                  
-                </div>  -->     
-              </div>
+    <div class="parallax-container about" id="my-about">
+      <!-- <div class="parallax"><img src="./assets/images/samuel-scrimshaw-ebbFZvavGy4-unsplash.jpg" alt="Photo by Samuel Scrimshaw on Unsplash"></div> -->
+      <br />
+      <br />
+      <br />
+      <div class="row center about">
+        <div class="col s10 offset-s1">
+          <div class="">
+            <div class="lighten-2 black-text">
+              <h4 class="category-header">ABOUT</h4>
             </div>
-    
-    
-    
-            
+          </div>
         </div>
       </div>
-     
-      
-    </div>
-    <div class="section">
-        <a class="portfolio-title" name="Skills"></a>
-    </div>
-      
 
-      
-      <!-- Skills card-->
-      <div class="row center" >
+      <div class="row container">
+        <div class="col s12 m7">
+          <img
+            id="about-img"
+            src="assets/images/webdesign-3411373_1920.jpg"
+            width="600"
+            alt=""
+            class="responsive-img"
+            style="border-radius: 10px; margin-top: 5px"
+          />
+        </div>
+        <div class="col s12 m5">
+          <div class="card add-border">
+            <div class="card-content">
+              <div class="card-title center-align">
+                ABOUT ME
+                <div class="divider"></div>
+              </div>
+              <p>
+                I am a full stack web developer with an electrical engineering
+                background. I use my analytical mindset and technical background
+                to create web apps with engaging user interface and pleasant
+                user experience. I primarily use the MERN stack to build dynamic
+                web apps which include features such as encryption and
+                authentication, data storage and retrieval, and user account
+                management.
+              </p>
+              <br />
+              <p><strong>MERN</strong> = MongoDB, Express, React and Node.js</p>
+              <h6>To learn more about me:</h6>
+              <div class="resume-button">
+                <a
+                  class="waves-effect waves-light btn"
+                  href="https://docs.google.com/document/d/1GuugSK-7pXFA7JRtt8YZwvEY2B9lvNNLXjXZ-DOBKrw/edit?usp=sharing"
+                  target="_blank"
+                  ><i class="material-icons left">description</i>Download
+                  Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills card-->
+    <div class="parallax-container skills" id="my-skills">
+      <br />
+      <br />
+      <br />
+      <div class="parallax">
+        <img
+          src="./assets/images/jj-ying-WmnsGyaFnCQ-unsplash.jpg"
+          alt="Photo by JJ Ying on Unsplash"
+        />
+      </div>
+      <div class="row center skills">
         <div class="col s10 offset-s1">
-          <div class="card">
-            <div class="card-content blue-grey lighten-2 black-text">
-              <span class="card-title">SKILLS</span>
+          <div class="">
+            <div class="lighten-2 black-text">
+              <h4 class="category-header">SKILLS</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row container skill">
+        <div class="col s6 m6 icon-skill">
+          <i class="material-icons icon-teal" style="color: teal;"
+            >important_devices</i
+          >
+        </div>
+
+        <div class="col s6 m6 icon-skill">
+          <i class="fas fa-server icon-teal" style="color: #9d121e;"></i>
+        </div>
+      </div>
+      <div class="row container">
+        <div class="col s6 m6">
+          <div class="card add-border">
+            <div class="card-content">
+              <div class="card-title center-align">
+                Front End
+                <div class="divider"></div>
+              </div>
+
+              <ul class="collection-skills">
+                <li>
+                  <a class="btn-small client-tech">HTML</a>
+                  <a class="btn-small client-tech">CSS</a>
+                  <a class="btn-small client-tech">JavaScript</a>
+                </li>
+                <br />
+                <li>
+                  <a class="btn-small client-tech ">jQuery</a>
+                  <a class="btn-small client-tech">React</a>
+                </li>
+                <br />
+                <li>
+                  <a class="btn-small client-tech">Bootstrap</a>
+                  <a class="btn-small client-tech">Materialize</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m6">
+          <div class="card add-border">
+            <div class="card-content">
+              <div class="card-title center-align">
+                Back End
+                <div class="divider"></div>
+              </div>
+              <ul class="collection-skills">
+                <li>
+                  <a class="btn-small server-tech">Node.js</a>
+                  <a class="btn-small server-tech">Express</a>
+                  <a class="btn-small server-tech">Rest API</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row container skill">
+        <div class="col s6 m6 icon-skill">
+          <i
+            class="fas fa-database icon-teal"
+            style="color: darkslateblue;"
+          ></i>
+        </div>
+
+        <div class="col s6 m6 icon-skill">
+          <i class="far fa-file-code icon-teal" style="color: #514e4e;"></i>
+        </div>
+      </div>
+
+      <div class="row container">
+        <div class="col s6 m6">
+          <div class="card add-border">
+            <div class="card-content">
+              <div class="card-title center-align">
+                Database
+                <div class="divider"></div>
+              </div>
+              <ul class="collection-skills">
+                <li>
+                  <a class="btn-small database-tech">MongoDB</a>
+                  <a class="btn-small database-tech">Mongoose(ODM)</a>
+                </li>
+                <br />
+                <li>
+                  <a class="btn-small database-tech ">MySQL</a>
+                  <a class="btn-small database-tech">Sequelize(ORM)</a>
+                </li>
+                <br />
+                <li>
+                  <a class="btn-small database-tech">AWS S3</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s6 m6">
+          <div class="card add-border">
+            <div class="card-content">
+              <div class="card-title center-align">
+                Others
+                <div class="divider"></div>
+              </div>
+              <ul class="collection-skills">
+                <li>
+                  <a class="btn-small others-tech">Heroku</a>
+                  <a class="btn-small others-tech">GitHub</a>
+                  <a class="btn-small others-tech">Git</a>
+                </li>
+                <br />
+                <li>
+                  <a class="btn-small others-tech ">C#</a>
+                  <a class="btn-small others-tech">Java</a>
+                  <a class="btn-small others-tech">Python</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT CARD STARTS-->
+
+    <div class="row center projects" id="my-projects">
+      <br />
+      <br />
+      <br />
+      <div class="col s10 offset-s1">
+        <div class="">
+          <div class="lighten-2 black-text">
+            <h4 class="category-header">PROJECTS</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row container">
+      <!-- card with TravelRush2(React) Group project-->
+      <div class="col s12 m6">
+        <div class="card projects">
+          <div class="card-image">
+            <img src="assets/images/travel_rush2.JPG" />
+          </div>
+          <div class="card-content">
+            <span class="card-title black-text">TravelRush2</span>
+            <p>
+              travelRush2 is a full-stack app designed to assist rushed
+              travelers with unplanned last-minute trips, by providing a quick
+              one stop search for airports, destination weather forecast, and
+              nearby hotels and restaurants.
+            </p>
+          </div>
+          <div class="divider"></div>
+          <div class="card-content">
+            <span class="card-title black-text tech">Technologies used</span>
+            <ul class="decor">
+              <li>
+                <strong
+                  >MongoDB(Database), Express.js, React(UI library) and
+                  Node.js</strong
+                >
+                - MERN stack builds front-end and back-end.
+              </li>
+              <li>
+                <strong>Passport.js, JWT and Bcrypt</strong>- Authenticate users
+                and hashes passwords.
+              </li>
+              <li>
+                <strong>RESTful API on server side</strong>- Handles user
+                requests
+              </li>
+              <li>
+                <strong>OpenWeatherMap, Yelp, AirportFinder, Geocoding</strong>-
+                APIs connect app to the web.
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-action">
+            <a href="https://travelrush2.herokuapp.com/">Deployed app</a>
+            <br />
+            <a href="https://github.com/mosfad/TravelRush2.git">GitHub repo</a>
+          </div>
+        </div>
+      </div>
+      <!-- card with SecretIngredient Group project-->
+
+      <div class="col s12 m6">
+        <div class="card projects">
+          <div class="card-image">
+            <img
+              id="secretIngredient-img"
+              src="assets/images/secret_ingredient.JPG"
+            />
+          </div>
+          <div class="card-content">
+            <span class="card-title black-text">SecretIngredient</span>
+            <p>
+              SecretIngredient is a full-stack app designed to help users
+              create, share, and save their favorite recipes. This app was
+              created to encourage users to cook meals as eating home-cooked
+              meals has been associated with healthier lifesytles.
+            </p>
+          </div>
+          <div class="divider"></div>
+          <div class="card-content">
+            <span class="card-title black-text tech">Technologies used</span>
+            <ul class="decor">
+              <li>
+                <strong>HTML5, CSS3 and jQuery</strong> - Create the UI for app.
+              </li>
+              <li>
+                <strong>Express.js and Node.js</strong> - Make up our web
+                server.
+              </li>
+              <li>
+                <strong>MySQL Database and AWS S3</strong> - Provide storage
+                solution for data and images.
+              </li>
+              <li>
+                <strong>Passport.js and Bcrypt</strong>- Authenticate users and
+                hashes passwords.
+              </li>
+              <li>
+                <strong>RESTful API on server side</strong>- Handles user
+                requests
+              </li>
+              <li>
+                <strong>Model-View-Controller Architecture</strong>- Efficiently
+                organized codebase.
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-action">
+            <a href="https://secretingredient.herokuapp.com/">Deployed app</a>
+            <br />
+            <a href="https://github.com/mosfad/SecretIngredient.git"
+              >GitHub code</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- row #2 starts here...-->
+    <div class="row container">
+      <div class="col s12 m6">
+        <div class="card projects">
+          <div class="card-image">
+            <img src="assets/images/travel_rush.JPG" />
+          </div>
+          <div class="card-content">
+            <span class="card-title black-text">TravelRush</span>
+            <p>
+              TravelRush is a front-end app that allows users to ... The app...
+              The program is a great way to relax and reminisce reminisce about
+              your favorite video games from decades ago.
+            </p>
+          </div>
+          <div class="divider"></div>
+          <div class="card-content">
+            <span class="card-title black-text tech">Technologies used</span>
+            <ul class="decor">
+              <li>
+                <strong>HTML5, CSS3 and jQuery</strong> - Create the UI for app.
+              </li>
+              <li>
+                <strong>OpenWeatherMap, Yelp, AirportFinder, Geocoding</strong>-
+                APIs connect app to the web.
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-action">
+            <a href="https://mosfad.github.io/travelRush/">Deployed app</a>
+            <br />
+            <a href="https://github.com/mosfad/travelRush.git">GitHub code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m6">
+        <div class="card projects">
+          <div class="card-image">
+            <img src="assets/images/bamazon.JPG" />
+          </div>
+          <div class="card-content">
+            <span class="card-title black-text">Bamazon</span>
+            <p>
+              Bamazon is an Amazon-like storefront that will accepts customer
+              orders and allows the store manager to maintain inventory. This
+              Node.js app uses MySQL database to maintain an inventory of
+              products. The customer view helps the customer purchase products
+              online, while the manager view helps the manager to track and
+              update inventory.
+            </p>
+          </div>
+          <div class="divider"></div>
+          <div class="card-content">
+            <span class="card-title black-text tech">Technologies used</span>
+            <ul class="decor">
+              <li>
+                <strong>Node.js</strong> - Helps run our JavaScript code in
+                command line.
+              </li>
+              <li>
+                <strong>MySQL Database</strong>- Manages inventory of products
+              </li>
+              <li>
+                <strong>Inquirer </strong>- This npm package helps create
+                interactive command-line prompts
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-action">
+            <a href="https://github.com/mosfad/Bamazon.git">GitHub code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT ME STARTS-->
+
+    <div class="parallax-container contact" id="my-contact">
+      <br />
+      <br />
+      <br />
+      <div class="parallax">
+        <img
+          src="./assets/images/s-o-c-i-a-l-c-u-t-EwQhB7yNGOU-unsplash.jpg"
+          alt=""
+        />
+      </div>
+
+      <div class="row center contact">
+        <div class="col s10 offset-s1">
+          <div class="">
+            <div class="lighten-2 black-text">
+              <h4 class="category-header">CONTACT ME</h4>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col s10 m10 offset-s1 offset-m1">
-          <div class="card">
+          <div class="card contact-form">
             <div class="card-content black-text">
-              <ul class="collapsible">
-                <li>
-                    <div class="collapsible-header black-text"><i class="material-icons icon-teal">important_devices</i><h6><strong>Front-End</strong></h6></div>
-                    <div class="collapsible-body"><span><strong>HTML5  CSS3  JS  jQuery React Bootstrap  Materialize.</strong></span>
-                                  <!--<ul class="skills">
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>jQuery</li>
-                                    <li>Bootstrap</li>
-                                    <li>Materialize</li>    
-                                  </ul>-->
-                                
-                      </div>
-                  </li>
-                  <li>
-                    <div class="collapsible-header black-text"><i class="fas fa-server icon-teal"></i><h6><strong>Back-End</strong></h6></div>
-                    <div class="collapsible-body"><span><strong>Node.js  Express.js. </strong></span></div>
-                  </li>
-                  <li>
-                    <div class="collapsible-header black-text"><i class="fas fa-database icon-teal"></i><h6><strong>Database</strong></h6></div>
-                    <div class="collapsible-body"><span><strong>MongoDB  Mongoose  MySQL  Sequelize  Firebase.</strong></span></div>
-                  </li>
-                  <li>
-                    <div class="collapsible-header black-text"><i class="far fa-file-code icon-teal"></i><h6><strong>Others</strong></h6></div>
-                    <div class="collapsible-body"><span><strong>Heroku  GitHub  Git  C#  Java  Python</strong></span></div>
-                  </li>
-                </ul>
-                          <!--<p>
-                            <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                            <i class="fab fa-bootstrap"></i>
-                          </a>
-                          <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                              <i class="fab fa-html5 blue"></i>
-                          </a>
-                          <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                              <i class="fab fa-css3-alt"></i>
-                          </a>
-                          <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                              <i class="fab fa-js-square"></i>
-                          </a>
-                          <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                              <i class="fab fa-node"></i>
-                          </a>
-                          </p>-->
-              
+              <!--<form > -->
+              <form action="https://www.enformed.io/atxvthw2" method="POST">
+                <div class="row">
+                  <div class="input-field col s10 offset-s1">
+                    <i class="material-icons prefix">person</i>
+                    <input id="name" type="text" class="validate" name="name" />
+                    <label for="name">Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s10 offset-s1">
+                    <i class="material-icons prefix">email</i>
+                    <input
+                      id="email"
+                      type="email"
+                      class="validate"
+                      name="email"
+                    />
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s10 offset-s1">
+                    <i class="material-icons prefix">subject</i>
+                    <input
+                      id="subject"
+                      type="text"
+                      class="validate"
+                      name="subject"
+                    />
+                    <label for="subject">Subject</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s10 offset-s1">
+                    <i class="material-icons prefix">edit</i>
+                    <input
+                      id="message"
+                      type="text"
+                      class="validate"
+                      name="message"
+                    />
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12 m12 center-align">
+                    <button
+                      class="btn waves-effect waves-light teal darken-1"
+                      id="submit-messg"
+                      type="submit"
+                      style="border-radius: 7px;"
+                    >
+                      Submit <i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-
-      <!-- SKILLS CARD ENDS-->
-      <div class="section">
-          <a class="portfolio-title" name="Projects"></a>
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row"></div>
       </div>
-
-      <!-- PROJECT CARD STARTS-->
-      <div class="row center" >
-          <div class="col s10 offset-s1">
-            <div class="card">
-              <div class="card-content blue-grey lighten-2 black-text">
-                <span class="card-title">PROJECTS</span>
-              </div>
-            </div>
-          </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Copyright © 2019 Dupe Fadina
         </div>
-        <div class="row">
-          <div class="col s10 m10 offset-s1 offset-m1">
-            <div class="card">
-              <div class="card-content black-text">
+      </div>
+    </footer>
 
-                  <div class="row">
-                      <!-- card with TravelRush2(React) Group project-->
-                      <div class="col s12 m6">
-                        <div class="card projects">
-                          <div class="card-image">
-                            <img src="assets/images/travel_rush2.JPG"> 
-                          </div>
-                          <div class="card-content">
-                            <span class="card-title black-text">TravelRush2</span>
-                            <p>travelRush2 is a full-stack app designed to assist rushed travelers with unplanned last-minute trips, 
-                              by providing a quick one stop search for airports, destination weather forecast, and 
-                              nearby hotels and restaurants.
-                            </p>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="card-content">
-                            <span class="card-title black-text tech">Technologies used</span>
-                            <ul class="decor">
-                              <li>
-                                <strong>MongoDB(Database), Express.js, React(UI library) and Node.js</strong> - MERN stack builds front-end and back-end.
-                              </li>
-                              <li>
-                                <strong>Passport.js, JWT and Bcrypt</strong>- Authenticate users and hashes passwords.
-                              </li>
-                              <li>
-                                <strong>RESTful API on server side</strong>- Handles user requests
-                              </li>
-                              <li>
-                                <strong>OpenWeatherMap, Yelp, AirportFinder, Geocoding</strong>- APIs connect app to the web.
-                              </li>
-                            </ul>
-                          </div>
-                          
-                          <div class="card-action">
-                            <a href="https://travelrush2.herokuapp.com/">Deployed app</a>
-                            <br>
-                            <a href="https://github.com/mosfad/TravelRush2.git">GitHub repo</a>
-                          </div>
-                          
-                        </div>
-                      </div>
-                      <!-- card with SecretIngredient Group project-->
+    <!--JavaScript at end of body for optimized loading-->
 
-                      <div class="col s12 m6">
-                        <div class="card projects">
-                          <div class="card-image">
-                            <img id="secretIngredient-img" src="assets/images/secret_ingredient.JPG">
-                          </div>
-                          <div class="card-content">
-                            <span class="card-title black-text">SecretIngredient</span>
-                            <p>SecretIngredient is a full-stack app designed to help users create, share,
-                               and save their favorite recipes. This app was created to encourage users to cook meals as 
-                               eating home-cooked meals has been associated with healthier lifesytles.
-                              
-                            </p>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="card-content">
-                            <span class="card-title black-text tech">Technologies used</span>
-                            <ul class="decor">
-                              <li>
-                                <strong>HTML5, CSS3 and jQuery</strong> - Create the UI for app.
-                              </li>
-                              <li>
-                                <strong>Express.js and Node.js</strong> - Make up our web server.
-                              </li>
-                              <li>
-                                <strong>MySQL Database and AWS S3</strong> - Provide storage solution for data and images.
-                              </li>
-                              <li>
-                                <strong>Passport.js and Bcrypt</strong>- Authenticate users and hashes passwords.
-                              </li>
-                              <li>
-                                <strong>RESTful API on server side</strong>- Handles user requests
-                              </li>
-                              <li>
-                                <strong>Model-View-Controller Architecture</strong>- Efficiently organized codebase.
-                              </li>
-                            </ul>
-                          </div>
-                          
-                          <div class="card-action">
-                            <a href="https://secretingredient.herokuapp.com/">Deployed app</a> 
-                            <br>
-                            <a href="https://github.com/mosfad/SecretIngredient.git">GitHub code</a>
-                          </div>
-                          
-                        </div>
-                      </div>
-                      <!-- card with travelRush Group project   
-                      <div class="col s12 m4">
-                        <div class="card medium">
-                          <div class="card-image">
-                            <img src="assets/images/travel_rush.JPG"> 
-                          </div>
-                          <div class="card-content">
-                            <span class="card-title black-text">travelRush App</span>
-                            <p>Click the links below to see the app</p>
-                          </div>
-                          <div class="card-action">
-                            <a href="https://mishel-t.github.io/travelRush/">Deployed app</a>
-                            <br>
-                            <a href="https://github.com/Mishel-T/travelRush.git">GitHub code</a>
-                          </div>
-                          
-                        </div>
-                      </div>-->
-                      
-                      <!--
-                      <div class="col s12 m3">
-                          <div class="card medium">
-                            <div class="card-image">
-                              <img src="assets/images/port_train.JPG">
-                              
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title black-text">Train Scheduler App</span>
-                              <p>Click the link below to see the app.</p>
-                              </div>
-                            <div class="card-action">
-                              <a href="https://mosfad.github.io/Train-Scheduler/">Train Scheduler</a>
-                              <a href="https://github.com/mosfad/Train-Scheduler.git">Train Scheduler(GitHub code)</a>
-                            </div>
-                          </div>
-                        </div>-->
-              
-                        
-                    
-                        <!--<div class="row">-->
-                      <!-- card with portfolio train scheduler -->
-              
-                      <!-- card with portfolio trivia game-->
-              
-                      
-                      
-                      
-                      
-                    <!--</div>-->
-                    
-                   <!--<div class="row">-->
-                      <!-- card with liri node app
-                      <div class="col s12 m3">
-                        <div class="card medium">
-                          <div class="card-image">
-                            <img src="assets/images/consoleLogA.JPG">
-                            
-                          </div>
-                          <div class="card-content">
-                            <span class="card-title black-text">Liri Node App</span>
-                            <p>Click the link below to see the app.</p>
-                            </div>
-                          <div class="card-action">
-                      
-                            <a href="https://github.com/mosfad/liri-node-app.git">liri-node-app(GitHub code)</a>
-                          </div>
-                        </div>
-                      </div>-->
-                      <!-- card with portfolio Trivia Game
-                      <div class="col s12 m4">
-                        <div class="card medium">
-                          <div class="card-image">
-                            <img src="assets/images/port_trivia.JPG">
-                            
-                          </div>
-                          <div class="card-content">
-                            <span class="card-title black-text">Trivia Game</span>
-                            <p>Click the link below to see the app.</p>
-                          </div>
-                          <div class="card-action">
-                            <a href="https://mosfad.github.io/TriviaGame/">Deployed app</a>
-                            <br>
-                            <a href="https://github.com/mosfad/TriviaGame.git">GitHub code</a>
-                          </div>
-                        </div>
-                      </div>-->
-
-                      <!-- card with portfolio giftastic-->
-                     
-                </div>
-
-                <!-- row #2 starts here...-->
-                <div class="row">
-                  <div class="col s12 m6">
-                    <div class="card projects">
-                      <div class="card-image">
-                        <img src="assets/images/gifApp.JPG">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title black-text">GifTastic</span>
-                        <p>GifTastic is a front-end app that allows users to randomly generate GIFs of their favorite video games. 
-                          The app generates GIFs based on a topic the user choses. The program is a great way to relax and reminisce 
-                          reminisce about your favorite video games from decades ago.
-                          
-                        </p>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="card-content">
-                        <span class="card-title black-text tech">Technologies used</span>
-                        <ul class="decor">
-                          <li>
-                            <strong>HTML5, CSS3 and jQuery</strong> - Create the UI for app.
-                          </li>
-                          <li>
-                            <strong>Giphy API</strong>- Gives app access to animated GIF search engine.
-                          </li>
-                          
-
-                        </ul>
-                      </div>
-                      
-                      <div class="card-action">
-                        <a href="https://mosfad.github.io/GifTastic/">Deployed app</a>
-                        <br>
-                        <a href="https://github.com/mosfad/GifTastic.git">GitHub code</a>
-                      </div>
-                      
-                    </div>
-                  </div>
-                
-                
-                  <div class="col s12 m6">
-                    <div class="card projects">
-                      <div class="card-image">
-                        <img src="assets/images/bamazon.JPG">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title black-text">Bamazon</span>
-                        <p>Bamazon is an Amazon-like storefront that will accepts customer orders and 
-                          allows the store manager to maintain inventory. This Node.js app uses MySQL database to maintain an inventory of products.
-                          The customer view helps the customer purchase products online, while the manager view helps the manager to track and update inventory.
-                        </p>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="card-content">
-                        <span class="card-title black-text tech">Technologies used</span>
-                        <ul class="decor">
-                          <li>
-                            <strong>Node.js</strong> - Helps run our JavaScript code in command line.
-                          </li>
-                          <li>
-                            <strong>MySQL Database</strong>- Manages inventory of products
-                          </li>
-                          <li>
-                            <strong>Inquirer </strong>- This npm package helps create interactive command-line prompts
-                          </li>
-                          
-
-                        </ul>
-                      </div>
-                      
-                      <div class="card-action">
-                        <a href="https://github.com/mosfad/Bamazon.git">GitHub code</a>
-                      </div>
-                      
-                    </div>
-                  </div>
-                
-                </div>
-
-                
-   
-                      
-                      <!-- card with FriendFinder app 
-                      <div class="col s12 m3">
-                          <div class="card medium">
-                            <div class="card-image">
-                              <img id="friendfinder-img" src="assets/images/FriendFinderImage.JPG">
-                              
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title black-text">FriendFinder App</span>
-                              <p>Click the link below to see the app.</p>
-                            </div>
-                            <div class="card-action">
-                              <a href="https://fierce-ocean-44823.herokuapp.com/">FriendFinder(Deployed app)</a> 
-                              <a href="https://github.com/mosfad/FriendFinder.git">FriendFinder(GitHub code)</a>
-                            </div>
-                          </div>
-                        </div> -->
-                      
-                      <!-- card with Eat-Da-Burger! app 
-                       <div class="col s12 m4">
-                          <div class="card medium">
-                            <div class="card-image">
-                              <img id="eatDaBurger-img" src="assets/images/eat-da-burger.JPG">
-                              
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title black-text">Eat-Da-Burger! App</span>
-                              <p>Click the link below to see the app.</p>
-                            </div>
-                            <div class="card-action">
-                              <a href="https://morning-ridge-84081.herokuapp.com/">Deployed app</a>
-                              <br> 
-                              <a href="https://github.com/mosfad/burger.git">GitHub code</a>
-                            </div>
-                          </div>
-                        </div>-->
-                      
-                       <!-- card with Eat-Da-Burger! app 
-                      <div class="col s12 m3">
-                          <div class="card medium">
-                            <div class="card-image">
-                              <img id="eatDaBurger-img" src="assets/images/eat-da-burger.JPG">
-                              
-                            </div>
-                            <div class="card-content">
-                              <span class="card-title black-text">Eat-Da-Burger!(Sequelize) App</span>
-                              <p>Click the link below to see the app.</p>
-                            </div>
-                            <div class="card-action">
-                              <a href="https://pure-hollows-90048.herokuapp.com/">Eat-Da-Burger!(Deployed app)</a> 
-                              <a href="https://github.com/mosfad/sequelizedBurger.git">Eat-Da-Burger!(GitHub code)</a>
-                            </div>
-                          </div>
-                        </div> -->
-                      
-                 
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col s10 m10 offset-s1 offset-m1">
-            <div class="card">
-              <div class="card-content black-text">
-                <div class="row">
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-
-        <div class="section">
-            <a class="portfolio-title" name="Contact"></a>
-        </div>
-        <!-- CONTACT ME STARTS-->
-        <div class="row center" >
-            <div class="col s10 offset-s1">
-              <div class="card">
-                <div class="card-content blue-grey lighten-2 black-text">
-                  <span class="card-title">CONTACT ME</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s10 m10 offset-s1 offset-m1">
-              <div class="card">
-                <div class="card-content black-text">
-                  <!--<form > -->
-                  <form action="https://www.enformed.io/atxvthw2" method="POST" >
-                      <div class="row">
-                          <div class="input-field col s10 offset-s1">
-                              <i class="material-icons prefix">person</i>
-                            <input id="name" type="text" class="validate" name="name">
-                            <label for="name">Name</label>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="input-field col s10 offset-s1">
-                              <i class="material-icons prefix">email</i>
-                            <input id="email" type="email" class="validate" name="email">
-                            <label for="email">Email</label>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="input-field col s10 offset-s1">
-                              <i class="material-icons prefix">subject</i>
-                            <input id="subject" type="text" class="validate" name="subject">
-                            <label for="subject">Subject</label>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="input-field col s10 offset-s1">
-                              <i class="material-icons prefix">edit</i>
-                            <input id="message" type="text" class="validate" name="message">
-                            <label for="message">Message</label>
-                          </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12 m12 center-align">
-                                <button class="btn waves-effect waves-light teal darken-1" id ="submit-messg" type="submit">
-                                    Submit <i class="material-icons right">send</i>
-                                </button>
-                            </div>
-                        </div>
-                  </form>
-                    
-                                </div>
-        
-                            </div>
-                        </div>
-                    </div>
-                              <!--<p>
-                                <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                                <i class="fab fa-bootstrap"></i>
-                              </a>
-                              <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                                  <i class="fab fa-html5 blue"></i>
-                              </a>
-                              <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                                  <i class="fab fa-css3-alt"></i>
-                              </a>
-                              <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                                  <i class="fab fa-js-square"></i>
-                              </a>
-                              <a  class="waves-effect waves-light btn-floating brown" href="#" target="_blank">
-                                  <i class="fab fa-node"></i>
-                              </a>
-                              </p>-->
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <footer class="page-footer blue darken-3">
-              <div class="container">
-                  <div class="row">
-                  </div>
-              </div>
-              <div class="footer-copyright">
-                  <div class="container">
-                      Copyright © 2019 Dupe Fadina
-                      
-                  </div>
-              </div>
-          </footer>
-      
-      
-      <!--JavaScript at end of body for optimized loading-->
-      
-      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="assets/javascript/logic.js"></script>
-      <script type="text/javascript" src="assets/javascript/materialize.min.js"></script>
-    </body>
-  </html>
-
-
-
-  
-        
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="assets/javascript/logic.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/javascript/materialize.min.js"
+    ></script>
+  </body>
+</html>
