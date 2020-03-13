@@ -234,7 +234,8 @@ a.btn-small.others-tech {
   cursor: default;
 }
 
-.card.add-border {
+.card.add-border,
+.card.contact-form {
   border-radius: 12px;
 }
 
@@ -261,6 +262,15 @@ div.resume-button {
 /* div.row.container.home-container {
   display: flex;
 } */
+
+@media only screen and (min-width: 700px) {
+  .parallax-container {
+    height: 700px;
+  }
+  .parallax-container.about {
+    height: 700px;
+  }
+}
 @media only screen and (max-width: 680px) {
   .parallax-container {
     height: 800px;
