@@ -265,7 +265,7 @@ div.resume-button {
 
 @media only screen and (min-width: 760px) {
   .parallax-container {
-    height: 700px;
+    height: 750px;
   }
   .parallax-container.about {
     height: 750px;
